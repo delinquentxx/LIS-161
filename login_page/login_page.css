@@ -4,8 +4,8 @@ body {
 }
 
 img {
-  width: 80px;
-  height: 80px;
+  width: 100px;
+  height: 100px;
 }
 
 h1 {
@@ -24,14 +24,10 @@ h1 {
   margin-left: 20px;
 }
 .wrapper {
-  display: flex;
+  margin: auto;
+  text-aligh: left;
+  float: left;
 }
-
-.left {
-  flex: 2;
-  box-shadow: grey;
-}
-
 
 .P1 {
   margin-top: -35px;
@@ -47,14 +43,13 @@ h1 {
   margin-top: -20px;
 }
 
-
-  
 .right {
-  flex: 1;
+  float: right;
+  align-items:right;
   background-color: white;
-  background-size: 500px 600px;
-  margin-top: 50px;
-  margin-right: 75px;
+  padding: 50px;
+  margin: 50px;
+  display: right;
   }    
 
 input {
