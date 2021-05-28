@@ -1,0 +1,24 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+
+}
+
+h1 {
+    position: absolute;
+    margin-top: 75px;
+    margin-left: 40px;
+    font-weight: 100;
+    float: left;
+}
+
+
+hr.solid {
+    border-top: 3px solid #bbb;
+    
+}
