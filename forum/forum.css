@@ -2,13 +2,6 @@ body {
     font-family: Helvetica, Arial, sans-serif;
 }
 
-.logo {
-    width: 80px;
-    height: 80px;
-    position: absolute;
-
-}
-
 h1 {
     position: absolute;
     margin-top: 75px;
@@ -38,4 +31,55 @@ button {
 hr.solid {
     border-top: 3px solid #bbb;
     
+}
+
+
+.top-layer-img{
+position: absolute;
+width: 104px;
+height: 104px;
+left: 12px;
+top: 8px;
+}
+
+.top-layer-title-1{
+position: absolute;
+width: 345px;
+height: 68px;
+left: 80px;
+top: -50px;
+
+font-family: "Open Sans";
+font-style: normal;
+font-weight: 300;
+font-size: 50px;
+height: 60px;
+}
+
+.top-layer-title-2{
+  position: absolute;
+width: 112px;
+height: 68px;
+left: 280px;
+top: -50px;
+
+font-family: "Open Sans";
+font-style: normal;
+font-weight: 600;
+font-size: 50px;
+height: 30px;
+}
+
+.top-layer-title-3{
+position: absolute;
+width: 112px;
+height: 68px;
+left: 380px;
+top: -50px;
+
+font-family: "Open Sans";
+font-style: normal;
+font-weight: 300;
+font-size: 50px;
+height: 60px;
 }
